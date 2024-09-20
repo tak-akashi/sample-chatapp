@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "chatapp"
+name = "sample-chatapp"
 version = "0.1.0"
 description = ""
 authors = ["tak-akashi <tak.akashi@gmail.com>"]
@@ -8,7 +8,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 streamlit = "^1.38.0"
-langchain = "^0.2.16"
+langchain = "^0.3.0"
+langchain-google-genai = "^2.0.0"
+langchain-community = "^0.3.0"
+langgraph = "^0.2.22"
 
 
 [build-system]
